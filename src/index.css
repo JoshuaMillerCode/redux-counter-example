@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 50%;
+  margin: auto;
+}
+
+.counter-container {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.btn:active, .reset-btn:active, .step-btn:active {
+  transform: translate(3px, 3px);
+}
+
+.reset-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.reset-btn {
+  width: 100%;
+  padding: 10px 50px;
+}
+
+.input-component {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-tag {
+  padding: 10px 30px;
+}
+
+.step-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+}
